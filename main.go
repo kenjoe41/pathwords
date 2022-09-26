@@ -15,7 +15,9 @@ func main() {
 	for _, path := range paths {
 		path_parts := strings.Split(path, "/")
 		for _, path_part := range path_parts {
-			fmt.Println(path_part)
+			if path_part != "" { //Remove empty spaces
+				fmt.Println(path_part)
+			}
 		}
 	}
 }
