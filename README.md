@@ -2,7 +2,11 @@
 
 ## Install
 
-```go install github.com/kenjoe41/pathwords@latest```
+```
+go install github.com/kenjoe41/pathwords@latest
+```
 
 ## Run
-```cat paths.txt | pathwords```
+```
+cat paths.txt | pathwords
+```
